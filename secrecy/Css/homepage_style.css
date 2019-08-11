@@ -1,0 +1,178 @@
+/* Main div styles */
+
+.main-div{
+			//border:1px solid #000;
+			margin:0 auto;
+			min-height:655px;
+			width:1350px;
+			margin-top:-7px;	
+	}
+	
+/* Top-div styles & settings */
+
+.top-div{
+			//border:1px solid #000;
+			height:175px;
+			width:1350px;
+	}
+	
+.top_left-div {
+				 //border:1px solid #000;
+				 height:175px;
+				 width:230px;
+				 float:left;
+	}
+
+.top_right-div {
+				 //border:1px solid #000;
+				 height:175px;
+				 width:1115px;
+				 float:left;
+	}
+
+/* Top-div TABLE styling */
+
+.info_table-div {
+					border:1px solid #D7D7D7;
+					margin-left:5px;
+					margin-top:4px;
+					height:167px;
+					width:935px;
+					float:left;
+				
+	}
+
+.info_table-div table {
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:19px;
+	}
+
+.info_table-div table th {	
+							//text-shadow: 0px -1px 4px white, 0px -2px 10px yellow, 0px -10px 20px #ff8000, 0px -18px 40px red;
+							text-shadow: 0px 1px 1px #4d4d4d;
+							font:28px 'BlackJackRegular';
+							color:#007;
+	}
+
+.info_table-div table tr td {
+								text-align:center;
+	}
+
+.photo-div {
+				border:1px solid #000;
+				margin-top:4px;
+				width:166px;
+				height:167px;
+				float:right;
+}
+
+	/* LEFT DIV */
+/* Menu div styles & settings */
+
+.menu-div {
+			background:linear-gradient(to right, #E7E7E7 , 80%, #FFF);
+			//border:1px solid #000;
+			height:485px;
+			width:230px;
+			float:left;
+			//#30339C
+	}
+	
+.menu-div a {
+				font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+				text-decoration:none;
+				color:#FFF;
+				font-size:22px;
+	}
+
+.main-div-style {
+					//border: 1px solid #003;
+					background: linear-gradient(to top right, #006, midnightblue, 60%, #FFF);
+					border-radius:5px;
+					padding-top:5px;
+					width:230px;
+					height:38px;
+	
+	}
+
+.main-div-style a {
+						margin-left:20px;
+	}
+
+.main-div-style:hover {
+							//border:1px solid #006;
+							background: linear-gradient(to top right, #003, 50%, #FFF);
+}
+
+.main-div-style:hover a {
+							color:#FFF;
+							font-weight:bold;
+}
+
+/* Sub-Menus styles & settings */
+
+.sub-div-style {
+					background-color:linear-gradient(to right, #E7E7E7 , 80%, #FFF);
+					//border: 1px solid #006;
+					padding-top:5px;
+					border-top:0px;
+					width:230px;
+					height:30px;
+					display:none;
+	}
+
+.sub-div-style a {
+					text-decoration:none;
+					font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+					font-size:20px;
+					margin-left:50px;
+					color:#006;
+
+}
+
+.sub-div-style:hover {
+						background-color:#D8D8D8;
+}
+
+
+.sub-div-style a:hover{
+							color:#1C10A7;
+}
+
+/* Slider-div styles */
+
+.slider-div{
+				//border:1px solid red;
+				margin-left:7px;
+				margin-top:2px;
+				height:40px;
+				width:1069px;
+				float:left;
+	}
+
+/* Slide div styles & settings */
+
+.slide-div {
+				background: linear-gradient(to top right, #006, midnightblue, 60%, #FFF);
+				border-radius:0px 25px 25px 0px;
+				color:#FFF;
+				display:none;
+				position:absolute;
+				height:40px;
+				width:935px;
+	}
+
+.slide-div h1 {		
+					margin-left:15px;
+					margin-top:3px;
+					font-size:28px;
+	}
+
+/* Index-div styles */
+
+.index-div {
+				//border:1px solid red;
+				height:410px;
+				width:1100px;
+				float:right;
+	}	
